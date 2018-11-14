@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        
+        <title>Corylus - Diseño & desarrollo web</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/> 
+        
+        <meta name="description" content="Diseño & desarrollo web">
+        <meta name="keywords" content="corylus, corylusweb, corylus diseño web, diseño web corylus, diseño web, desarrollo web, paginas web, sitio web, programadores, san miguel, buenos aires">
+        
+        <link rel="icon" href="img/logo.png">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="js/menu.js"></script>
+        
+        <!-- Enable media queries for old IE -->
+        <!--[if lt IE 9]>
+           <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+        
+    </head>
+    <div id="cover"></div>
+    <body id="body" class="no-touch">
+        
+        <div class="wrapper" id="wrapper">
+            
+            <div class="w_fixer" id="w_fixer"></div>
+            
+            <header>
+            
+                <div class="menu_bar">
+                    <a href="#" class="bt_menu"><span class="text_menu">Menu</span><span class="icon-Menu"></span></a>
+                </div>
+                
+                <a href="#contacto" class="header_contact">Contacto</a>
+
+                <div class="logo">
+                    <a href="#" style="text-decoration: none;"><img src="img/logo.png" alt="" class="image_logo"><span class="text1">Corylus</span><span class="text2">| Diseño & desarrollo Web</span></a>
+                </div>
+                
+            </header>
+
+            <section class="content">
+                
+                <nav>
+                    <div class="top">
+                        <div class="cerrar">
+                            <a href="#" class="bt_cerrar">Cerrar</a>
+                        </div>
+                    </div>
+                    <ul>   
+                        <li><a href="#" class="menu_link" style="color: #6a2595;">INICIO</a></li>
+                        <li><a href="#servicios" class="menu_link">SERVICIOS</a></li>
+                        <li><a href="#plantillas" class="menu_link">PLANITLLAS</a></li>
+                        <li><a href="#portafolio" class="menu_link">PORTAFOLIO</a></li>
+                        <li><a href="#" class="menu_link">ACERCA DE</a></li>
+                        <li><a href="#contacto" class="menu_link">CONTACTO</a></li>
+                    </ul>
+                    <div class="bottom">
+                        <a href="#" class="fb"><span class="icon-facebook"></span></a>
+                        <a href="#" class="ig"><span class="icon-instagram"></span></a>
+                        <a href="#" class="gp"><span class="icon-google-plus"></span></a>
+                    </div>
+                </nav>
+                
+                <section class="welcome">
+                    
+                    <div class="intro">
+                        <div class="left_text">
+                            <h2><span>Corylus</span>, diseño & desarrollo web creativo.</h2>
+                            <h4>Diseñamos sitios web de calidad con las más modernas tecnologías. Años de estudio en el área de la informática.</h4>
+                            <a href="#">Contáctanos</a>
+                        </div>
+                        <div class="right_image">
+                            <img src="img/home2.png" alt="" >
+                        </div>
+                    </div>
+                    
+                </section>
+                
+                <section class="services diagonal" id="servicios">
+                    
+                    <div class="serv_container">
+                                                
+                        <h2 class="titulo">SERVICIOS</h2>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)" class="tablinks" onclick="openService(event, 'webDesign')" id="defaultOpen">
+                                    <div class="hexagon" style="background-color: #3626A7; border-bottom-color: #3626A7; border-top-color: #3626A7;"><img src="img/Icon_2.png" alt="" width="25%"></div>
+                                    <div class="side_text"><p>DISEÑO WEB</p></div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="javascript:void(0)" class="tablinks" onclick="openService(event, 'development')">
+                                    <div class="hexagon" style="background-color: #6E0E0A; border-bottom-color: #6E0E0A; border-top-color: #6E0E0A;"><img src="img/Icon_2.png" alt="" width="25%"></div>
+                                    <div class="side_text"><p>DESARROLLO</p></div>
+                                </a>
+                            </li> 
+                            
+                            <li>
+                                <a href="javascript:void(0)" class="tablinks" onclick="openService(event, 'graphicDesign')">
+                                    <div class="hexagon" style="background-color: #123; border-bottom-color: #123; border-top-color: #123;"><img src="img/Icon_2.png" alt="" width="25%"></div>
+                                    <div class="side_text"><p>DISEÑO GRAFICO</p></div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="javascript:void(0)" class="tablinks" onclick="openService(event, 'userExperience')">
+                                    <div class="hexagon" style="background-color: #E84855; border-bottom-color: #E84855; border-top-color: #E84855;"><img src="img/Icon_2.png" alt="" width="25%"></div>
+                                    <div class="side_text"><p>UI/UX</p></div>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                        <div id="webDesign" class="tabcontent">
+                            <h3>Diseño Web</h3>
+                            <blockquote>"El significado de un logo deriva de la calidad de lo que simboliza, no a la inversa"<br><span>- Paul Rand</span></blockquote>
+                        </div>
+                        
+                        <div id="graphicDesign" class="tabcontent">
+                            <h3>Diseño Gráfico</h3>
+                            <blockquote>"El significado de un logo deriva de la calidad de lo que simboliza, no a la inversa."<br><span>- Paul Rand</span></blockquote>
+                        </div>
+                        
+                        <div id="development" class="tabcontent">
+                            <h3>Desarrollo</h3>
+                            <blockquote>"Un gran operario de tornos vale varias veces más que un operario medio, pero un gran escritor de código vale 10.000 veces el precio de un desarrollador medio"<br><span>- Bill Gates</span></blockquote>
+                        </div>
+                        
+                        <div id="userExperience" class="tabcontent">
+                            <h3>User Experience</h3>
+                            <blockquote>"El significado de un logo deriva de la calidad de lo que simboliza, no a la inversa"<br><span>- Paul Rand</span></blockquote>
+                        </div>
+                        
+                    </div>
+                    
+                </section>
+                
+                <section class="plantillas" id="plantillas">
+                    
+                    <div class="banner">
+                        <span class="banner_overlay"></span>
+                        <div class="banner_content">
+                            <div class="creators">
+                                <h1>Hacé de la web un mejor lugar eligiéndonos</h1>
+                                <p>Hoy en día, el material digital es una forma de arte como cualquier otra. Corylus hace del diseño web una forma de arte.</p>
+                                <br>
+                                <a href="#">Sobre nosotros</a>
+                            </div>
+                            <div class="banner_image">
+                                <img src="img/monitor.png" alt="" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="templates">
+                        
+                        <div class="titular">
+                            <h2 class="titulo">PLANTILLAS</h2>
+                            <p>¿No puede abonar un servicio a medida? No importa, puede elegir una plantilla que se adecue a su negocio o emprendimiento.</p>
+                        </div>
+                        
+                        <ul id="rig">
+                            <li>
+                                <a class="rig-cell" href="#">
+                                    <img class="rig-img" src="/img/camera.jpg" />
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text">Fotografía</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="rig-cell" href="#">
+                                    <img class="rig-img" src="/img/hotel.jpg" />
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text">Hotelería</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="rig-cell" href="#">
+                                    <img class="rig-img" src="/img/startup.jpg" />
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text">Empresa/startup</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="rig-cell" href="#">
+                                    <img class="rig-img" src="/img/music.jpg" />
+                                    <span class="rig-overlay"></span>
+                                    <span class="rig-text">Musical</span>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    
+                </section>
+                
+                <section class="portafolio" id="portafolio">
+                    
+                    <div class="banner_chico">
+                        <div class="banner_chico_content">
+                            <h3>¿Preferís un diseño web a medida?</h3>
+                            <a href="#">Empecemos</a>
+                        </div>
+                    </div>
+                    
+                    <div class="titular_left">
+                        <h2 class="titulo_left"><span>Portafolio -</span> Nuestro trabajos realizados</h2>
+                    </div>
+                    
+                    <div class="works">
+                        <ul id="rig-works">
+                            <li>
+                                <a class="rig-cell" href="http://www.gcgacero.com" target="_blank">
+                                    <img class="rig-img" src="/img/gcgacero.png" />
+                                    <span class="rig-overlay"></span>
+                                </a>
+                                <div class="des-text">
+                                    <h3>Gcgacero Empresa Metalúrgica</h3>
+                                    <p>Diseño de página web y logo. Identidad corporativa.</p>
+                                    <a href="http://www.gcgacero.com" target="_blank">Visitar página</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="rig-cell" href="http://www.techomax.com.ar" target="_blank">
+                                    <img class="rig-img" src="/img/techomax.png" />
+                                    <span class="rig-overlay"></span>
+                                </a>
+                                <div class="des-text">
+                                    <h3>Techomax impermeabilizantes</h3>
+                                    <p>Diseño de página web</p>
+                                    <a href="http://www.techomax.com.ar" target="_blank">Visitar página</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="rig-cell" href="#">
+                                    <img class="rig-img" src="/img/acl.png" />
+                                    <span class="rig-overlay"></span>
+                                </a>
+                                <div class="des-text">
+                                    <h3>ACCL Sistema De Gestión</h3>
+                                    <p>Sistema desarrollado a medida. Bases de datos, instalación y configuración del sistema de red.</p>
+                                    <a href="#">Más información</a>
+                                </div>
+                                
+                            </li>
+                            <li>
+                                <a class="rig-cell" href="#">
+                                    <img class="rig-img" src="/img/quicklist.png" />
+                                    <span class="rig-overlay"></span>
+                                </a>
+                                <div class="des-text">
+                                    <h3>Quicklist Sitema De Toma De Asistencia</h3>
+                                    <p>Aplicación para sistemas Android. Base de datos y servidores.</p>
+                                    <a href="#">Más información</a>
+                                </div>
+                                
+                            </li>
+                            <li>
+                                <a class="rig-cell" href="#">
+                                    <img class="rig-img" src="/img/lusion.png" />
+                                    <span class="rig-overlay"></span>
+                                </a>
+                                <div class="des-text">
+                                    <h3>Plataforma Lusion</h3>
+                                    <p>Sistema de intercambio de archivos para escuelas públicas.</p>
+                                    <a href="#">Más información</a>
+                                </div>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                        
+                </section>
+                
+                <section class="contacto" id="contacto">
+                    <div class="titular">
+                        <h2 class="titulo">CONTACTO</h2>
+                        <p>Coméntenos acerca de su proyecto, nos contactaremos a la brevedad. Consulte sin compromiso.</p>
+                    </div>
+                    <div class="formulario">
+                        <div class="contact_data">
+                            <div class="data">
+                                <div class="hexagon" style="background-color: #123; border-bottom-color: #123; border-top-color: #123; float: left;"><img src="img/Icon_2.png" alt="" width="30%"></div>
+                                <h4>Llamanos</h4>
+                                <p>+54 11-6600-8443 / +54 11-6675-8865</p>
+                            </div>
+                            
+                            <div class="data">
+                                <div class="hexagon" style="background-color: #E84855; border-bottom-color: #E84855; border-top-color: #E84855; float: left;"><img src="img/Icon_2.png" alt="" width="30%"></div>
+                                <h4>Email</h4>
+                                <p>ramirezjeremias98@gmail.com / kronework@gmail.com</p>
+                            </div>
+                        </div>  
+                        
+                        <div class="contact_form">
+                            <form method="POST" action="send.php" name="contacto" >
+                                <div class="left_campo">
+                                    <input class="campo_izquierda" type="text" placeholder="Nombre" name="nombre">
+                                    <input class="campo_izquierda" type="text" placeholder="Email" name="email">
+                                </div>
+                                <div class="right_campo">
+                                    <textarea placeholder="Su consulta" name="consulta"></textarea>
+                                    <input type="submit" class="submit_button">
+                                </div>
+                            </form>
+                        </div>
+                        
+                    </div>  
+                </section>
+                
+                <footer>
+                    <div class="circle"><img src="img/logo2.png" alt="" width="60%" style="margin-top: 10px;"></div>
+                    <div class="footer_text"><h4>Copyright &copy; 2017 - Corylus</h4></div>
+                    <div class="follow">
+                        
+                        <a href="#" class="fb"><span class="icon-facebook"></span></a>
+                        <a href="#" class="ig"><span class="icon-instagram"></span></a>
+                        <a href="#" class="gp"><span class="icon-google-plus"></span></a>
+                    </div>
+                </footer>
+                
+            </section>
+            
+        </div>
+        
+    </body>
+    
+    <script>
+        // Para que el servicio de Diseño Web esté abierto
+        document.getElementById("defaultOpen").click();
+    </script>
+    
+</html>

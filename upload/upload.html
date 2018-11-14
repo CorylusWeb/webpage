@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Subir archivos Los Amigos</title>
+        <meta charset="utf-8">
+        
+        <style>
+            
+            body {
+                background-color: #FAFAFA;
+            }
+            .contenedor {
+                width: 400px;
+                height: 200px;
+                margin: 0 auto;
+                position: relative;
+                top: 120px;
+                -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+                box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+                font-family: arial; 
+                background-color: #FFFFFF;
+            }
+            
+            .button {
+                font-weight: 500;
+                font-size: 16px;
+                background-color: #2417a5;
+                width: 100px;
+                height: 25px;
+                color: #FFF;
+                border: 0;
+                cursor: pointer;
+                -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+                box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+                position: relative; 
+                left: 150px;
+                top: 120px;
+            }
+            
+            .arvhivo {
+                width: 80%;
+                margin: 0 auto;
+                position: relative;
+                top: 50px;
+            }
+            
+        </style>
+	</head>
+
+	<body>
+        
+        <div class="contenedor">
+            <form action="uploadFile.php" method="post" enctype="multipart/form-data">
+                <div class="arvhivo">
+                    <label for="file"><span>Archivo:</span></label>
+                    <input type="file" name="file" id="file" /> 
+                </div>
+                
+                <br />
+                <input class="button" type="submit" name="submit" value="Aceptar" />
+            </form>
+        <div>
+	</body>
+</html>
